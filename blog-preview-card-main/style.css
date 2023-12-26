@@ -1,4 +1,103 @@
+* {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+}
+
+a {
+    font-size: 12px;
+}
+
+body {
+    height: 840px;
+
+}
+
+.container {
+    height: 827px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color: white;
+    width: 380px;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+
+    box-shadow: 6px 6px 0 0 black;
+}
+
+.card .author {
+    background-color: transparent;
+    margin: 0 22px;
+}
+
+.image {
+    margin: 0 22px 0;
+    border-radius: 15px;
+    align-self: center;
+}
+
+.category {
+    text-align: center;
+    padding: 5px 0 0 0;
+    border-radius: 5px;
+    height: 25px;
+    width: 90px;
+    margin: 0 150px 0 22px;
+}
+
+.date {
+    background-color: transparent;
+    height: 25px;
+    margin: -22px 0 0 22px;
+}
+
+.course {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    font-size: 25px;
+    font-weight: 800;
+    margin: -30px 0 0 22px;
+}
+
+.description {
+    color: rgb(155, 155, 155);
+    background-color: transparent; 
+    margin: -25px 0 0 22px;
+}
+
+.course:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+.author {
+    height: 30px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+img {
+    background-color: transparent;
+    height: 30px;
+
+}
 
 
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
